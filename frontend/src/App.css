@@ -1,0 +1,134 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("/public/coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.landingPageContainer nav {
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.landingPageContainer nav h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.landingPageContainer nav .navlist {
+  display: flex;
+  gap: 1.6rem;
+  cursor: pointer;
+
+}
+
+.landingMainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  height: 80vh;
+  align-items: center;
+}
+
+.landingMainContainer>div:nth-child(1) {
+  font-size: 2.2rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] {
+  background: #D97500;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 1.9rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.landingMainContainer>div:nth-child(2) img {
+  height: 70vh;
+  width: auto;
+}
+
+.navBar h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff; /* White text */
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.navBar .navlist {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.navBar .navlist button {
+  background: linear-gradient(90deg, #FF5722, #E64A19); /* Higher contrast gradient */
+  color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: 500;
+  text-transform: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  transition: all 0.3s ease;
+}
+
+.navBar .navlist button:hover {
+  background: linear-gradient(90deg, #E64A19, #D84315); /* Slightly darker gradient */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Stronger hover shadow */
+}
+
+.navBar .navlist .logout {
+  background: linear-gradient(90deg, #FF5722, #E64A19); /* Higher contrast gradient */
+  color: #FFFFFF;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  transition: all 0.3s ease;
+}
+
+.navBar .navlist .logout:hover {
+  background: linear-gradient(90deg, #E64A19, #D84315); /* Slightly darker gradient */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Stronger hover shadow */
+}
+
+.meetContainer {
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+}
+
+.leftPanel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.rightPanel {
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel > img {
+  width: 30vw;
+  height: auto;
+  border-radius: 20px;
+}
